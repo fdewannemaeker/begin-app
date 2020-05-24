@@ -26,7 +26,7 @@ let body = `
 export async function handler (req: object) {
   
     console.log(req);
-    return {body:JSON.stringify(Deno.versions)}
+    return {body:JSON.stringify(Deno.version)}
   
 }
 
